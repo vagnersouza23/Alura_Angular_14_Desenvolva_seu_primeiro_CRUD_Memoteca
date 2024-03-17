@@ -12,7 +12,7 @@
       id="pensamento"
       name="pensamento"
       placeholder="Digite o pensamento..."
-      [(ngModel)] = 'pensamento.conteudo'
+      [(ngModel)] = "pensamento.conteudo"
     >
 
     <label for="autoria">Autoria fonte</label>
@@ -86,7 +86,7 @@
 
     <div class="acoes">
       <button (click)="criarPensamento()" class="botao">Salvar</button>
-      <button (click)="cancelar()" class="botao">Cancelar</button>
+      <button (click)="cancelar()" routerLink="/listarPensamento" class="botao">Cancelar</button>
     </div>
 
 
